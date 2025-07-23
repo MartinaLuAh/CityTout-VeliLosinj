@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="KircheHeiligeAntonius" xml:space="preserve">
+    <value>
+	    Kirche Heilige Antonius
+		
+	Eine imposante barock-klassizistische Kirche aus dem 18. Jahrhundert, direkt am Hafen gelegen. Sie wurde an der Stelle einer gotischen Kirche aus dem Jahr 1440 erbaut, die von einem Friedhof umgeben war und als erste selbstständige Pfarrkirche diente. Nach einem Brand im Jahr 1675 wurde die Kirche restauriert und erweitert, und ihr heutiges Aussehen erhielt sie 1774. 
+	Das Innere ist mit wertvollen Kunstwerken geschmückt, darunter ein Gemälde von Bartolomeo Vivarini aus dem Jahr 1475 und eine Orgel des venezianischen Meisters Gaetano Callido von 1782.
+
+	Besonderheit: Im Boden der Kirche befinden sich zahlreiche Grabplatten mit Reliefdarstellungen – ein stilles Zeugnis der letzten Ruhestätte vieler Familien aus Veli Lošinj.
+		</value>
+  </data>
+  <data name="KircheHeiligeMaria" xml:space="preserve">
+    <value>
+		Kirche Heilige Maria
+		
+	Eine der ältesten Kirchen in Veli Lošinj, äußerlich schlicht, aber im Inneren mit wertvollen Fresken aus dem Mittelalter geschmückt.
+
+	Besonderheit: Der Legende nach kamen die Dorfbewohner hierher, um in Zeiten großer Trockenheit um Regen zu beten.
+		</value>
+  </data>
+  <data name="Turm" xml:space="preserve">
+    <value>
+		Turm
+		
+	Ein mittelalterlicher Verteidigungsturm aus dem 15. Jahrhundert, einst Teil des Schutzsystems gegen Piraten. Heute dient er als Museum und Galerie, mit einem herrlichen Ausblick von oben auf das Dorf und das Meer.
+
+	Besonderheit: Die alten Kanonen im Turm wurden nie im Kampf abgefeuert – Piraten flohen oft schon beim Anblick der Befestigung.
+		</value>
+  </data>
+  <data name="KircheHeiligeNikolaus" xml:space="preserve">
+    <value>
+		Kirche Heilige Nikolaus
+		
+	Etwas außerhalb des Dorfzentrums gelegen, ist diese Kirche dem hl. Nikolaus – dem Schutzpatron der Seefahrer – gewidmet und war über Jahrhunderte ein spiritueller Zufluchtsort für Fischer und Kapitäne.
+
+	Besonderheit: Seeleute widmeten oft ihre Schiffskabinen dem hl. Nikolaus und baten um Schutz auf See.
+
+	Weitere Besonderheit: Vor der Kirche befindet sich eine Steinplatte mit den Namen der ersten 12 Familien, die sich in Veli Lošinj niedergelassen haben – die Gründerväter des heutigen Dorfes.
+		</value>
+  </data>
+  <data name="Olivenmühle" xml:space="preserve">
+    <value>
+		Olivenmühle
+		
+	In der Bucht von Rovenska befindet sich eine alte Steinmühle, in der früher Oliven zu Öl verarbeitet wurden – eines der wichtigsten Produkte der Insel Lošinj. 
+	Die Mühle zeugt von der langen Tradition des Olivenanbaus und der Bedeutung des Olivenöls für die lokale Wirtschaft.
+
+	Besonderheit: Die Mühle wurde früher von Hand oder mit Hilfe von Tieren betrieben. Bewohner brachten ihre Oliven aus dem gesamten Inselgebiet hierher zur Verarbeitung.
+		</value>
+  </data>
+  <data name="HafenVonRovenska" xml:space="preserve">
+    <value>
+		Hafen von Rovenska
+		
+	Ein authentischer Fischerhafen mit traditionellen Booten und alten Steinhäusern, der seinen Charme und seine Atmosphäre vergangener Zeiten bewahrt hat.
+
+	Besonderheit: In Rovenska kann man noch heute Fischer beim Reparieren ihrer Netze beobachten – ein Ort gelebter Tradition.
+		</value>
+  </data>
+  <data name="Wellenbrecher(Molo)" xml:space="preserve">
+    <value>
+		Wellenbrecher (Molo)
+		
+	Ein historischer Steindamm, der den Hafen schützt – ein beliebter Ort für Spaziergänge und Meerblick-Fotos.
+
+	Besonderheit: Alte Fischer warfen hier Münzen ins Meer, um vor der Abfahrt auf See Glück zu erbitten.
+		</value>
+  </data>
+  <data name="Feral" xml:space="preserve">
+    <value>
+		Feral
+		
+	Der Teil von Veli Lošinj namens Feral war einst Standort einer meteorologischen Station, die von 1888 bis 1896 in Betrieb war. Auf der Promenade am Kap Leva war eine Wettersäule aufgestellt, von der heute nur noch der Sockel erhalten ist.
+
+	Besonderheit: Die hier durchgeführten Messungen erregten das Interesse Wiener Ärzte und trugen dazu bei, dass Veli und Mali Lošinj 1892 zu klimatischen Kurorten erklärt wurden.
+		</value>
+  </data>
+  <data name="VillaElisabeth" xml:space="preserve">
+    <value>
+		Villa Elisabeth
+		
+	Eine historische Villa aus der Zeit der österreichisch-ungarischen Monarchie, erbaut als Sommerresidenz einer wohlhabenden Familie. Ein architektonisches Juwel mit reicher Vergangenheit und heute ein bedeutendes Denkmal.
+
+	Besonderheit: Die Villa verfügte einst über einen privaten botanischen Garten und war eines der ersten Häuser auf der Insel mit modernem Badezimmer.
+		</value>
+  </data>
+  <data name="Fischmarkt" xml:space="preserve">
+    <value>
+		Fischmarkt
+		
+	Direkt am Meer gelegen, war der Fischmarkt schon immer das Zentrum des morgendlichen Treibens in Veli Lošinj. Einheimische und Touristen kamen hierher, um frischen Fisch direkt aus den Booten zu kaufen.
+
+	Besonderheit: Der Fischmarkt ist mehr als nur ein Verkaufsort – hier hört man die neuesten Geschichten, erfährt, wer was gefangen hat, und spürt den wahren Rhythmus des Insellebens.
+
+		</value>
+  </data>
+  <data name="Begrueßungsnachricht" xml:space="preserve">
+    <value>
+			Willkommen in Veli Lošinj!
+
+			Willkommen zu einem lehrreichen Spiel durch das malerische Städtchen Veli Lošinj!
+
+			Entdecke interessante Fakten über seine Geschichte, Kultur und Natur.
+
+
+
+			Das Abenteuer beginnt bei der Kirche des hl. Nikolaus, wo sich die ersten Bewohner von Lošinj niedergelassen haben.
+
+			Bereit? Lass uns gemeinsam Veli Lošinj erkunden!
+		</value>
+  </data>
+  <data name="FeralTitel" xml:space="preserve">
+    <value>Feral</value>
+  </data>
+  <data name="FischmarktTitel" xml:space="preserve">
+    <value>Fischmarkt an der Uferpromenade</value>
+  </data>
+  <data name="HafenVonRovenskaTitel" xml:space="preserve">
+    <value>Hafen von Rovenska</value>
+  </data>
+  <data name="KircheHeiligeAntoniusTitel" xml:space="preserve">
+    <value>Kirche des hl. Antonius</value>
+  </data>
+  <data name="KircheHeiligeMariaTitel" xml:space="preserve">
+    <value>Kirche der hl. Maria</value>
+  </data>
+  <data name="KircheHeiligeNikolausTitel" xml:space="preserve">
+    <value>Kirche des hl. Nikolaus</value>
+  </data>
+  <data name="OlivenmühleTitel" xml:space="preserve">
+    <value>Alte Olivenmühle </value>
+  </data>
+  <data name="TurmTitel" xml:space="preserve">
+    <value>Turm – Festung</value>
+  </data>
+  <data name="VillaElisabethTitel" xml:space="preserve">
+    <value>Villa Elisabeth</value>
+  </data>
+  <data name="WellenbrecherTitel" xml:space="preserve">
+    <value>Wellenbrecher (Molo)</value>
+  </data>
+  <data name="buttonSchließenText" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+</root>

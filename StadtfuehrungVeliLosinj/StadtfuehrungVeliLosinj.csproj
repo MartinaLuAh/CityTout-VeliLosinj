@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0882A70-E891-4128-8A75-8A49029CD016}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StadtfuehrungVeliLosinj</RootNamespace>
+    <AssemblyName>StadtfuehrungVeliLosinj</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.5.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.30.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.30.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.9.3.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZstdSharp, Version=0.8.5.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.8.5\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnmeldeForm1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnmeldeForm.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Benutzer.cs" />
+    <Compile Include="MeinMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeinMessageBox.Designer.cs">
+      <DependentUpon>MeinMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswortZurueckSetzenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswortZurueckSetzenForm.Designer.cs">
+      <DependentUpon>PasswortZurueckSetzenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RanglisteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RanglisteForm.Designer.cs">
+      <DependentUpon>RanglisteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sehenswuerdigkeiten.hr.Designer.cs" />
+    <Compile Include="Sehenswuerdigkeiten.hr1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sehenswuerdigkeiten.hr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SehenswuerdigkeitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SehenswuerdigkeitForm.Designer.cs">
+      <DependentUpon>SehenswuerdigkeitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaetselForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaetselForm.Designer.cs">
+      <DependentUpon>RaetselForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Raetsel.cs" />
+    <Compile Include="RaetselText.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RaetselText.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RaetselText.hr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RaetselText.hr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RaetselText.it.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RaetselText.it.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RaetselText.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RaetselText.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SehenswuerdigkeitDaten.cs" />
+    <Compile Include="HauptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HauptForm.Designer.cs">
+      <DependentUpon>HauptForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sehenswuerdigkeiten.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sehenswuerdigkeiten.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sehenswuerdigkeiten.it.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sehenswuerdigkeiten.it.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sehenswuerdigkeiten.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sehenswuerdigkeiten.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SehenswuerdigkeitForm1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SehenswuerdigkeitForm.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StartSeiteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartSeiteForm.Designer.cs">
+      <DependentUpon>StartSeiteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnmeldeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnmeldeForm.Designer.cs">
+      <DependentUpon>AnmeldeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrierungForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrierungForm.Designer.cs">
+      <DependentUpon>RegistrierungForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.hr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.hr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.it.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.it.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnmeldeForm.resx">
+      <DependentUpon>AnmeldeForm.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AnmeldeForm1.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>StadtfuehrungVeliLosinj</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HauptForm.resx">
+      <DependentUpon>HauptForm.cs</DependentUpon>
+      <CustomToolNamespace>StadtfuehrungVeliLosinj</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeinMessageBox.resx">
+      <DependentUpon>MeinMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswortZurueckSetzenForm.resx">
+      <DependentUpon>PasswortZurueckSetzenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaetselForm.resx">
+      <DependentUpon>RaetselForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaetselText.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RaetselText.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>StadtfuehrungVeliLosinj</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaetselText.hr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RaetselText.hr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>StadtfuehrungVeliLosinj</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaetselText.it.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RaetselText.it.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>StadtfuehrungVeliLosinj</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaetselText.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RaetselText.en.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>StadtfuehrungVeliLosinj</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RanglisteForm.resx">
+      <DependentUpon>RanglisteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sehenswuerdigkeiten.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Sehenswuerdigkeiten.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sehenswuerdigkeiten.hr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Sehenswuerdigkeiten.hr1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sehenswuerdigkeiten.it.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Sehenswuerdigkeiten.it.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sehenswuerdigkeiten.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Sehenswuerdigkeiten.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>StadtfuehrungVeliLosinj</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SehenswuerdigkeitForm.resx">
+      <DependentUpon>SehenswuerdigkeitForm.cs</DependentUpon>
+      <CustomToolNamespace>StadtfuehrungVeliLosinj</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SehenswuerdigkeitForm1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StartSeiteForm.resx">
+      <DependentUpon>StartSeiteForm.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StartSeiteForm1.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>StadtfuehrungVeliLosinj</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrierungForm.resx">
+      <DependentUpon>RegistrierungForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.hr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.hr.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.it.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.it.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

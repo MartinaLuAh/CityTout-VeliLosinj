@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="KircheHeiligeAntonius" xml:space="preserve">
+    <value>     Crkva sv. Antuna Opata
+
+Impozantna barokno-klasicistička crkva iz 18. stoljeća, smještena uz samu luku. Sagrađena je na mjestu gotičke crkve iz 1440. godine, koja je bila okružena grobljem i služila kao prvo sjedište samostalne župe. Nakon požara 1675. godine, crkva je obnovljena i proširena, a današnji izgled dobila je 1774. godine. Unutrašnjost krase vrijedna umjetnička djela, uključujući sliku Bartolomea Vivarinija iz 1475. godine i orgulje venecijanskog majstora Gaetana Callida iz 1782.
+
+Zanimljivost: U podu crkve nalaze se brojne nadgrobne ploče s reljefnim prikazima, svjedočeći o važnosti crkve kao posljednjeg počivališta mnogih velološinjskih obitelji.
+</value>
+  </data>
+  <data name="KircheHeiligeMaria" xml:space="preserve">
+    <value>           Crkva sv. Marije
+
+Jedna od najstarijih crkvica u Velom Lošinju, skromnog vanjskog izgleda, ali s vrijednim unutarnjim freskama koje pričaju priče iz srednjeg vijeka.
+
+Zanimljivost: Prema predaji, mještani su ovdje dolazili moliti za kišu tijekom dugih sušnih razdoblja.
+</value>
+  </data>
+  <data name="Turm" xml:space="preserve">
+    <value>                Kula
+
+Srednjovjekovna obrambena kula iz 15. stoljeća, nekada dio obrambenog sustava protiv gusara. Danas služi kao muzej i galerija, a s vrha se pruža prekrasan pogled na mjesto i more.
+
+Zanimljivost: Stari topovi s tornja nikada nisu ispalili hitac u borbi; gusari su najčešće bježali već na sam pogled na obrambenu strukturu.
+</value>
+  </data>
+  <data name="KircheHeiligeNikolaus" xml:space="preserve">
+    <value>               Crkva sv. Nikole
+
+Smještena izvan središta mjesta, ova crkva posvećena sv. Nikoli – zaštitniku pomoraca – stoljećima je bila važno duhovno utočište lošinjskih ribara i kapetana.
+
+Zanimljivost: Pomorci su često posvećivali brodske kabine sv. Nikoli, moleći za sigurnost na moru.
+
+Još jedna zanimljivost: Ispred crkve nalazi se kamena ploča s imenima prvih 12 obitelji koje su se naselile u Veli Lošinj – ti su ljudi postavili temelje današnjeg mjesta.
+ 
+</value>
+  </data>
+  <data name="Olivenmühle" xml:space="preserve">
+    <value>            Stari mlin za masline 
+
+U uvali Rovenska nalazi se stari kameni mlin u kojem su se nekad mljele masline za proizvodnju maslinovog ulja, jednog od najvažnijih proizvoda otoka Lošinja. Mlin svjedoči o dugoj tradiciji maslinarstva i važnosti maslinovog ulja za lokalno gospodarstvo.
+
+Zanimljivost: Stari mlin pokretao se ručno ili uz pomoć životinja, a mještani su ovdje donosili masline s cijelog otoka.
+</value>
+  </data>
+  <data name="HafenVonRovenska" xml:space="preserve">
+    <value>         Luka Rovenska
+
+Autentična ribarska luka s tradicionalnim barkama i starim kamenim kućama, zadržala je svoj šarm i atmosferu prošlih vremena.
+
+Zanimljivost: U luci Rovenska još uvijek možete vidjeti ribare kako krpaju mreže, a mjesto je poznato po očuvanoj tradiciji ribarstva.
+</value>
+  </data>
+  <data name="Wellenbrecher(Molo)" xml:space="preserve">
+    <value>            Lukobran (Mulo)
+
+Povijesni kameni lukobran koji štiti luku, omiljeno mjesto za šetnje i fotografije uz more.
+
+Zanimljivost: Stari ribari pričaju da su s mula bacali novčiće u more za sreću prije polaska na ribarenje.
+</value>
+  </data>
+  <data name="Feral" xml:space="preserve">
+    <value>               Feral
+
+Feral je dio Velog Lošinja poznat po nekadašnjoj meteorološkoj postaji koja je djelovala od 1888. do 1896. godine. Na šetnici na Rtu Leva bio je postavljen meteorološki stup, od kojeg se danas može vidjeti samo postolje.
+
+Zanimljivost: Mjerenja koja su se ovdje provodila privukla su pozornost bečkih liječnika, što je doprinijelo proglašenju Velog i Malog Lošinja klimatskim lječilištima 1892. godine.
+</value>
+  </data>
+  <data name="VillaElisabeth" xml:space="preserve">
+    <value>               Villa Elisabeth
+
+Povijesna vila iz doba Austro-Ugarske, sagrađena kao ljetnikovac bogate obitelji. Arhitektonski dragulj s bogatom prošlošću, danas važan spomenik.
+
+Zanimljivost: Vila je nekoć imala privatni botanički vrt i bila je jedna od prvih kuća s modernim kupaonicama na otoku.
+</value>
+  </data>
+  <data name="Fischmarkt" xml:space="preserve">
+    <value>         Ribarnica na rivi
+
+Smještena tik uz more, ribarnica na rivi oduvijek je bila srce jutarnjih zbivanja u Velom Lošinju. Mještani i turisti dolazili su po svježu ribu netom iskrcanu iz barki koje se ljuljaju u luci.
+
+Zanimljivost: Ribarnica je više od tržnice – to je mjesto gdje možete čuti najnovije priče, saznati tko je što ulovio i osjetiti pravi ritam otočkog života.
+</value>
+  </data>
+  <data name="Begrueßungsnachricht" xml:space="preserve">
+    <value>Dobrodošli u Veli Lošinj!
+
+Dobrodošli u edukativnu igru kroz slikoviti gradić Veli Lošinj!
+
+Istraživanjem znamenitosti saznat ćete zanimljive činjenice o njegovoj povijesti, kulturi i prirodnim ljepotama.
+
+
+
+Avantura započinje kod crkve sv. Nikole, mjesta gdje su se nastanili prvi stanovnici Lošinja.
+
+Spremni? Krenimo zajedno u otkrivanje Velog Lošinja!
+
+</value>
+  </data>
+  <data name="FeralTitel" xml:space="preserve">
+    <value>Feral</value>
+  </data>
+  <data name="FischmarktTitel" xml:space="preserve">
+    <value>Ribarnica na rivi</value>
+  </data>
+  <data name="HafenVonRovenskaTitel" xml:space="preserve">
+    <value>Luka Rovenska</value>
+  </data>
+  <data name="KircheHeiligeAntoniusTitel" xml:space="preserve">
+    <value>Crkva sv. Antuna Opata</value>
+  </data>
+  <data name="KircheHeiligeMariaTitel" xml:space="preserve">
+    <value>Crkva sv. Marije</value>
+  </data>
+  <data name="KircheHeiligeNikolausTitel" xml:space="preserve">
+    <value>Crkva sv. Nikole</value>
+  </data>
+  <data name="OlivenmühleTitel" xml:space="preserve">
+    <value>Stari mlin za masline </value>
+  </data>
+  <data name="TurmTitel" xml:space="preserve">
+    <value>Kula</value>
+  </data>
+  <data name="VillaElisabethTitel" xml:space="preserve">
+    <value>Villa Elisabeth</value>
+  </data>
+  <data name="WellenbrecherTitel" xml:space="preserve">
+    <value>Lukobran (Mulo)</value>
+  </data>
+  <data name="buttonSchließenText" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+</root>

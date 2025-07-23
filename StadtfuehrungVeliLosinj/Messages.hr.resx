@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlleFelderAusfüllen" xml:space="preserve">
+    <value>Morate ispuniti sva polja!</value>
+  </data>
+  <data name="BenutzernameVergeben" xml:space="preserve">
+    <value>Korisničko ime je zauzeto! Unesite novo korisničko ime!</value>
+  </data>
+  <data name="RegistrierungErfolgreich" xml:space="preserve">
+    <value>Registracija uspješna!</value>
+  </data>
+  <data name="AnmeldungErfolgreich" xml:space="preserve">
+    <value>Prijava uspješna!</value>
+  </data>
+  <data name="AnmeldungFehlgeschlagen" xml:space="preserve">
+    <value>Netočno korisničko ime ili lozinka!</value>
+  </data>
+  <data name="labelBeginnText" xml:space="preserve">
+    <value>Početak putovanja</value>
+  </data>
+  <data name="buttonAbmeldenText" xml:space="preserve">
+    <value>Odjava</value>
+  </data>
+  <data name="buttonStartText" xml:space="preserve">
+    <value>Započni avanturu</value>
+  </data>
+  <data name="AnmeldungTitel" xml:space="preserve">
+    <value>Prijava</value>
+  </data>
+  <data name="AnmeldenButtonText" xml:space="preserve">
+    <value>Prijavi se</value>
+  </data>
+  <data name="AbbrechenButtonText" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="BenutzernameLabel" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="PasswortLabel" xml:space="preserve">
+    <value>Lozinka</value>
+  </data>
+  <data name="RegistrierenButtonText" xml:space="preserve">
+    <value>Registracija</value>
+  </data>
+  <data name="SpracheComboBox" xml:space="preserve">
+    <value>Hrvatski</value>
+  </data>
+  <data name="SpracheLabelText" xml:space="preserve">
+    <value>Jezik:</value>
+  </data>
+  <data name="StartSeiteTitel" xml:space="preserve">
+    <value>Vodič kroz Veli Lošinj</value>
+  </data>
+  <data name="WillkommenText" xml:space="preserve">
+    <value>Dobrodošli</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="RegistrierungTitel" xml:space="preserve">
+    <value>Registracija</value>
+  </data>
+  <data name="TourAbschluss" xml:space="preserve">
+    <value>Čestitam, uspješno ste prošli turu kroz Veli Lošinj!</value>
+  </data>
+  <data name="FehlerSpracheLaden" xml:space="preserve">
+    <value>Greška prilikom učitavanja jezika</value>
+  </data>
+  <data name="FehlerSpracheAenderung" xml:space="preserve">
+    <value>Greška pri promjeni jezika</value>
+  </data>
+  <data name="FehlerUngueltigeKultur" xml:space="preserve">
+    <value>Odabrani jezik nije podržan</value>
+  </data>
+  <data name="FehlerRegistrierungsFormOeffnen" xml:space="preserve">
+    <value>Greška prilikom otvaranja forme za registraciju</value>
+  </data>
+  <data name="FehlerAnmeldeFormOeffnen" xml:space="preserve">
+    <value>Greška prilikom otvaranja forme za prijavu</value>
+  </data>
+  <data name="TechnischerFehler" xml:space="preserve">
+    <value>Došlo je do tehničke pogreške</value>
+  </data>
+  <data name="EmailNachricht" xml:space="preserve">
+    <value>E-mail mora biti u ispravnom formatu</value>
+  </data>
+  <data name="PasswortNachricht" xml:space="preserve">
+    <value>Lozinka mora imati 8 znakova, jedno slovo i jedan simbol.</value>
+  </data>
+  <data name="buttonPasswortZurueckSetzen" xml:space="preserve">
+    <value>Resetiraj lozinku</value>
+  </data>
+  <data name="PasswortBestaetigen" xml:space="preserve">
+    <value>Potvrdi lozinku</value>
+  </data>
+  <data name="PasswortBestaetigenNachricht" xml:space="preserve">
+    <value>Lozinka mora biti identična kao gore unesena</value>
+  </data>
+  <data name="BenutzernameExistiertNicht" xml:space="preserve">
+    <value>Korisničko ime ne postoji</value>
+  </data>
+  <data name="PasswortZurueckGesetzt" xml:space="preserve">
+    <value>Lozinka je ponovno postavljena</value>
+  </data>
+  <data name="LabelPunkteText" xml:space="preserve">
+    <value>Bodovi:</value>
+  </data>
+  <data name="EndeDerTourNachricht" xml:space="preserve">
+    <value>Čestitke! Završili ste turu!</value>
+  </data>
+  <data name="DatenbankIstLeer" xml:space="preserve">
+    <value>Baza korisnika je trenutno prazna!</value>
+  </data>
+  <data name="FehlerBenutzerHinzufuegen" xml:space="preserve">
+    <value>Greška pri dodavanju korisnika!</value>
+  </data>
+  <data name="RanglisteTitelText" xml:space="preserve">
+    <value>Poredak</value>
+  </data>
+</root>

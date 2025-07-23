@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RätselKircheHeiligeNikolaus_Frage" xml:space="preserve">
+    <value>Who  were the first settlers at the site of today’s Church of St. Nicholas?</value>
+  </data>
+  <data name="RätselKircheHeiligeNikolaus_AntwortA" xml:space="preserve">
+    <value> Tourists</value>
+  </data>
+  <data name="RätselKircheHeiligeNikolaus_AntwortB" xml:space="preserve">
+    <value>The first settlers</value>
+  </data>
+  <data name="RätselKircheHeiligeNikolaus_AntwortC" xml:space="preserve">
+    <value>Monks</value>
+  </data>
+  <data name="RätselKircheHeiligeNikolaus_RichtigeAntwort" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="RätselVillaElisabeth_Frage" xml:space="preserve">
+    <value>What is the name of the first church you visited?</value>
+  </data>
+  <data name="RätselVillaElisabeth_AntwortA" xml:space="preserve">
+    <value>St. Peter</value>
+  </data>
+  <data name="RätselVillaElisabeth_AntwortB" xml:space="preserve">
+    <value>St. Mary</value>
+  </data>
+  <data name="RätselVillaElisabeth_AntwortC" xml:space="preserve">
+    <value>St. Nicholas</value>
+  </data>
+  <data name="RätselVillaElisabeth_RichtigeAntwort" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="RätselKircheHeiligeMaria_Frage" xml:space="preserve">
+    <value>Who stayed at Villa Elisabeth?</value>
+  </data>
+  <data name="RätselKircheHeiligeMaria_AntwortA" xml:space="preserve">
+    <value>Emperor Franz Joseph</value>
+  </data>
+  <data name="RätselKircheHeiligeMaria_AntwortB" xml:space="preserve">
+    <value>An Austro-Hungarian noble family</value>
+  </data>
+  <data name="RätselKircheHeiligeMaria_AntwortC" xml:space="preserve">
+    <value>Sailors</value>
+  </data>
+  <data name="RätselKircheHeiligeMaria_RichtigeAntwort" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="RätselFischmarkt_Frage" xml:space="preserve">
+    <value>To which saint was the previous church dedicated?</value>
+  </data>
+  <data name="RätselFischmarkt_AntwortA" xml:space="preserve">
+    <value>St. Anthony</value>
+  </data>
+  <data name="RätselFischmarkt_AntwortB" xml:space="preserve">
+    <value>St. Nicholas</value>
+  </data>
+  <data name="RätselFischmarkt_AntwortC" xml:space="preserve">
+    <value>St. Mary</value>
+  </data>
+  <data name="RätselFischmarkt_RichtigeAntwort" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="RätselTurm_Frage" xml:space="preserve">
+    <value>What was once sold at the fish market?</value>
+  </data>
+  <data name="RätselTurm_AntwortA" xml:space="preserve">
+    <value>Olive oil</value>
+  </data>
+  <data name="RätselTurm_AntwortB" xml:space="preserve">
+    <value>Fresh fish</value>
+  </data>
+  <data name="RätselTurm_AntwortC" xml:space="preserve">
+    <value>Fruit</value>
+  </data>
+  <data name="RätselTurm_RichtigeAntwort" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="RätselKircheHeiligeAntonius_Frage" xml:space="preserve">
+    <value>Which building served as a defensive fortress?</value>
+  </data>
+  <data name="RätselKircheHeiligeAntonius_AntwortA" xml:space="preserve">
+    <value>Tower</value>
+  </data>
+  <data name="RätselKircheHeiligeAntonius_AntwortB" xml:space="preserve">
+    <value>Lighthouse</value>
+  </data>
+  <data name="RätselKircheHeiligeAntonius_AntwortC" xml:space="preserve">
+    <value>Villa Elisabeth</value>
+  </data>
+  <data name="RätselKircheHeiligeAntonius_RichtigeAntwort" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="RätselFeral_Frage" xml:space="preserve">
+    <value>To which saint was the last church dedicated?</value>
+  </data>
+  <data name="RätselFeral_AntwortA" xml:space="preserve">
+    <value>St. John</value>
+  </data>
+  <data name="RätselFeral_AntwortB" xml:space="preserve">
+    <value>St. Anthony</value>
+  </data>
+  <data name="RätselFeral_AntwortC" xml:space="preserve">
+    <value>St. Nicholas</value>
+  </data>
+  <data name="RätselFeral_RichtigeAntwort" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="RätselHafenVonRovenska_Frage" xml:space="preserve">
+    <value>What is the purpose of the “feral”?</value>
+  </data>
+  <data name="RätselHafenVonRovenska_AntwortA" xml:space="preserve">
+    <value> For selling oil</value>
+  </data>
+  <data name="RätselHafenVonRovenska_AntwortB" xml:space="preserve">
+    <value>Orientation for boats</value>
+  </data>
+  <data name="RätselHafenVonRovenska_AntwortC" xml:space="preserve">
+    <value>Bell tower</value>
+  </data>
+  <data name="RätselHafenVonRovenska_RichtigeAntwort" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="RätselOlivenmühle_Frage" xml:space="preserve">
+    <value>Which settlement is located near the Rovenska harbor?
+</value>
+  </data>
+  <data name="RätselOlivenmühle_AntwortA" xml:space="preserve">
+    <value>Zagreb</value>
+  </data>
+  <data name="RätselOlivenmühle_AntwortB" xml:space="preserve">
+    <value>Rovenska</value>
+  </data>
+  <data name="RätselOlivenmühle_AntwortC" xml:space="preserve">
+    <value>Osor</value>
+  </data>
+  <data name="RätselOlivenmühle_RichtigeAntwort" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="RätselWellenbrecher_Frage" xml:space="preserve">
+    <value>In which building were olives once processed?
+</value>
+  </data>
+  <data name="RätselWellenbrecher_AntwortA" xml:space="preserve">
+    <value>Fish market</value>
+  </data>
+  <data name="RätselWellenbrecher_AntwortB" xml:space="preserve">
+    <value>Church of St. Mary</value>
+  </data>
+  <data name="RätselWellenbrecher_AntwortC" xml:space="preserve">
+    <value>Olive mill</value>
+  </data>
+  <data name="RätselWellenbrecher_RichtigeAntwort" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="RichtigeAntwort" xml:space="preserve">
+    <value>Your answer is correct!</value>
+  </data>
+  <data name="FalscheAntwort" xml:space="preserve">
+    <value>Your answer is incorrect! Please try again!</value>
+  </data>
+</root>

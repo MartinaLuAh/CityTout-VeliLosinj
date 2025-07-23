@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="KircheHeiligeAntonius" xml:space="preserve">
+    <value>      Church of St. Anthony
+
+An impressive Baroque-Classical church from the 18th century, located right by the harbor. It was built on the site of a Gothic church from 1440, which was surrounded by a cemetery and served as the first seat of an independent parish. After a fire in 1675, the church was rebuilt and expanded, and gained its current appearance in 1774. Inside, it houses valuable artworks, including a painting by Bartolomeo Vivarini from 1475 and an organ by the Venetian master Gaetano Callido from 1782.
+
+Fun fact: In the church floor, there are many tombstones with relief carvings – a silent testimony to the final resting place of many families from Veli Lošinj.
+</value>
+  </data>
+  <data name="KircheHeiligeMaria" xml:space="preserve">
+    <value>      Church of St. Mary
+
+One of the oldest churches in Veli Lošinj, modest in appearance but adorned with valuable medieval frescoes inside.
+
+Fun fact: According to legend, locals came here to pray for rain during long periods of drought.
+</value>
+  </data>
+  <data name="Turm" xml:space="preserve">
+    <value>       Tower – Fortification
+
+A medieval defensive tower from the 15th century, once part of a system protecting the town from pirates. Today, it serves as a museum and gallery, offering a beautiful view of the village and sea from the top.
+
+Fun fact: The old cannons in the tower were never fired in battle – pirates often fled at the mere sight of the fortification.
+</value>
+  </data>
+  <data name="KircheHeiligeNikolaus" xml:space="preserve">
+    <value>        Church of St. Nicholas
+
+Located outside the village center, this church is dedicated to St. Nicholas – the patron saint of sailors – and has long served as a spiritual refuge for fishermen and captains.
+
+Fun fact: Sailors often dedicated ship cabins to St. Nicholas, praying for safety at sea.
+
+Another fun fact: In front of the church is a stone plaque with the names of the first 12 families who settled in Veli Lošinj – the founders of the modern town.
+</value>
+  </data>
+  <data name="Olivenmühle" xml:space="preserve">
+    <value>              Old Olive Mill 
+
+In Rovenska Bay lies an old stone mill once used to press olives for oil – one of the island’s most important products. The mill stands as a witness to the long tradition of olive growing and the importance of olive oil to the local economy.
+
+Fun fact: The mill was once operated by hand or with the help of animals. Locals brought olives here from all over the island for processing.
+</value>
+  </data>
+  <data name="HafenVonRovenska" xml:space="preserve">
+    <value>          Rovenska Harbor
+
+An authentic fishing harbor with traditional boats and old stone houses, it has retained the charm and atmosphere of days gone by.
+
+Fun fact: You can still see fishermen repairing their nets here – a living tradition of Lošinj.
+</value>
+  </data>
+  <data name="Wellenbrecher(Molo)" xml:space="preserve">
+    <value>         Breakwater (Molo)
+
+A historic stone breakwater protecting the harbor, a favorite spot for walks and seaside photography.
+
+Fun fact: Old fishermen used to toss coins into the sea from the molo to bring luck before setting out to fish.
+</value>
+  </data>
+  <data name="Feral" xml:space="preserve">
+    <value>               Feral
+
+The area of Veli Lošinj called Feral was once home to a meteorological station, active from 1888 to 1896. On the promenade at Cape Leva stood a weather column, now only the base remains.
+
+Fun fact: The measurements taken here attracted the attention of Viennese doctors and contributed to Veli and Mali Lošinj being declared climate resorts in 1892.
+</value>
+  </data>
+  <data name="VillaElisabeth" xml:space="preserve">
+    <value>                Villa Elisabeth
+
+A historic villa from the Austro-Hungarian era, built as a summer residence for a wealthy family. An architectural gem with a rich past, it is now a protected landmark.
+
+Fun fact: The villa once had a private botanical garden and was one of the first houses on the island to feature a modern bathroom.
+</value>
+  </data>
+  <data name="Fischmarkt" xml:space="preserve">
+    <value>     Fish Market on the Waterfront
+
+Located right by the sea, the fish market has always been the heart of morning life in Veli Lošinj. Locals and tourists alike come here to buy fresh fish straight from the boats.
+
+Fun fact: The market is more than just a place to shop – it's where you hear the latest stories, learn who caught what, and feel the true rhythm of island life.
+</value>
+  </data>
+  <data name="Begrueßungsnachricht" xml:space="preserve">
+    <value>Welcome to Veli Lošinj!
+
+Welcome to an educational game through the picturesque town of Veli Lošinj!
+
+Explore interesting facts about its history, culture, and natural beauty.
+
+
+
+The adventure begins at St. Nicholas’ Church, where the first settlers of Lošinj arrived.
+
+Ready? Let’s explore Veli Lošinj together!</value>
+  </data>
+  <data name="FeralTitel" xml:space="preserve">
+    <value>Feral</value>
+  </data>
+  <data name="FischmarktTitel" xml:space="preserve">
+    <value>Fish Market on the Waterfront</value>
+  </data>
+  <data name="HafenVonRovenskaTitel" xml:space="preserve">
+    <value>Rovenska Harbor</value>
+  </data>
+  <data name="KircheHeiligeAntoniusTitel" xml:space="preserve">
+    <value>Church of St. Anthony</value>
+  </data>
+  <data name="KircheHeiligeMariaTitel" xml:space="preserve">
+    <value>Church of St. Mary</value>
+  </data>
+  <data name="KircheHeiligeNikolausTitel" xml:space="preserve">
+    <value>Church of St. Nicholas</value>
+  </data>
+  <data name="OlivenmühleTitel" xml:space="preserve">
+    <value>Old Olive Mill </value>
+  </data>
+  <data name="TurmTitel" xml:space="preserve">
+    <value>Tower – Fortification</value>
+  </data>
+  <data name="VillaElisabethTitel" xml:space="preserve">
+    <value>Villa Elisabeth</value>
+  </data>
+  <data name="WellenbrecherTitel" xml:space="preserve">
+    <value>Breakwater (Molo)</value>
+  </data>
+  <data name="buttonSchließenText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+</root>
