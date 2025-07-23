@@ -194,7 +194,7 @@ namespace StadtfuehrungVeliLosinj
             _sehenswuerdigkeitDatens[0]._Entsperrt = true;
             _sehenswuerdigkeitDatens[0]._Button.Visible = true;
 
-            //Rout zeichnen
+            //Rout zeichnen.
             aktualisiereRute();
         }
 
